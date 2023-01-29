@@ -1,18 +1,3 @@
-shared.LightbornVariant = "Gilgamesh" -- variants : { Default, Gilgamesh, Horror, Leafre, Lewyn, Moros, MrToons, Blackborn }
-shared.LightbornFace = "LightSerious" -- faces : { LightCarefree, LightConcerned, LightConfident, LightFurious, LightScarred, LightSerious } or you can do Random for a random face
-shared.LightbornAccessory = "Wristbands" -- accessories : { WhiteNecklace, YellowNecklace, WhiteHalo, GilgameshNecklace, BlueNecklace,  Wristbands} or set to "" for nothing
-shared.LightbornAccessory2 = "" -- -- accessories : { WhiteNecklace, YellowNecklace, WhiteHalo, GilgameshNecklace, BlueNecklace,  Wristbands} or set to "" for nothing
-shared.CustomName = "Lostic" -- spoofs the topbar and leaderboard
-shared.CustomGuilda = "nanoprodigy fan club" -- only works if you have a guild
-shared.SpoofCharacterIDa = true -- self explanatory (spoofs the topbar numbers and stuff)
-
-
-
-
-
-
--- dont touch below this
-
 repeat
 	task.wait()
 until game:IsLoaded()
