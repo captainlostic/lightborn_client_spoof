@@ -154,8 +154,8 @@ local function Init(Character)
 			Accessory.Parent = Character
 		end
 	end
-	if shared.LightbornAccessorya ~= "" then
-		if shared.LightbornAccessorya == "Wristbands" then
+	if shared.LightbornAccessory ~= "" then
+		if shared.LightbornAccessory == "Wristbands" then
 			local Right = game:GetObjects(getsynasset("WristbandsRight.rbxm"))[1]
 			local RightWeld = Instance.new("Weld")
 			RightWeld.C0 = Right.Offset.CFrame:Inverse()
@@ -171,7 +171,7 @@ local function Init(Character)
 			LeftWeld.Parent = Left
 			Left.Parent = Character
 		else
-			local Accessory = game:GetObjects(getsynasset(shared.LightbornAccessorya .. ".rbxm"))[1]
+			local Accessory = game:GetObjects(getsynasset(shared.LightbornAccessory .. ".rbxm"))[1]
 			local Weld = Instance.new("Weld")
 			Weld.C0 = Accessory.Offset.CFrame:Inverse()
 			Weld.Part0 = Character.Head
