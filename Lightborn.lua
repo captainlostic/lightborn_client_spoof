@@ -30,8 +30,6 @@ else
 	shared.Connections = {}
 end
 
-
-
 local function Init(Character)
 	local blackborn = false
 	if shared.LightbornVariant == "Blackborn" then
@@ -67,6 +65,8 @@ local function Init(Character)
 	until Character:FindFirstChild("CharacterHandler")
 
 	Character.CharacterHandler:WaitForChild("InputClient")
+
+    task.wait(0.25)
 
 	local LeaderboardGui = PlayerGui:WaitForChild("LeaderboardGui")
 	local PlayerTag
